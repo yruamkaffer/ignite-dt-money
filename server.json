@@ -1,0 +1,20 @@
+{
+    "transactions": [
+        {
+            "id": 1,
+            "description": "Desenvolvimento de software",
+            "type": "income",
+            "category": "Venda",
+            "price": 140000,
+            "createdAt": "2025-05-21T23:44:02.088Z"
+        },
+                {
+            "id": 2,
+            "description": "Hambúrguer",
+            "type": "outcome",
+            "category": "Alimentação",
+            "price": 50,
+            "createdAt": "2025-05-21T23:44:22.088Z"
+        }
+        ]
+}
