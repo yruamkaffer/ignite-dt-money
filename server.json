@@ -1,28 +1,44 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de software",
-            "type": "income",
-            "category": "Venda",
-            "price": 140000,
-            "createdAt": "2025-05-21T23:44:02.088Z"
-        },
-                {
-            "id": 2,
-            "description": "Hambúrguer",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2025-05-21T23:44:22.088Z"
-        },
-                {
-            "id": 3,
-            "description": "Rockeseat",
-            "type": "outcome",
-            "category": "Curso",
-            "price": 1980,
-            "createdAt": "2025-05-21T23:54:22.088Z"
-        }
-        ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de software",
+      "type": "income",
+      "category": "Venda",
+      "price": 140000,
+      "createdAt": "2025-05-21T23:44:02.088Z"
+    },
+    {
+      "id": 2,
+      "description": "Hambúrguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2025-05-21T23:44:22.088Z"
+    },
+    {
+      "id": 3,
+      "description": "Rockeseat",
+      "type": "outcome",
+      "category": "Curso",
+      "price": 1980,
+      "createdAt": "2025-05-21T23:54:22.088Z"
+    },
+    {
+      "description": "Teste",
+      "price": 15000,
+      "category": "Cola",
+      "type": "outcome",
+      "createdAt": "2025-05-25T15:57:22.731Z",
+      "id": 4
+    },
+    {
+      "description": "Kibe",
+      "price": 100,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-05-25T16:14:56.386Z",
+      "id": 5
+    }
+  ]
 }
