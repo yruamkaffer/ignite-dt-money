@@ -1,54 +1,90 @@
-# React + TypeScript + Vite
+# 💰 Ignite DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação de controle financeiro desenvolvida durante o segundo módulo do Ignite da Rocketseat. Permite cadastrar transações de entrada e saída, visualizar o saldo total e gerenciar suas finanças de forma prática.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **ReactJS** ⚛️
+- **TypeScript** 🟦
+- **Vite** ⚡
+- **Styled Components** 🎨
+- **Context API** 🧠
+- **MirageJS** 🗄️
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## ✨ Funcionalidades
+
+- Cadastro de transações de entrada e saída
+- Visualização do saldo total
+- Listagem de transações
+- Interface responsiva e moderna
+
+---
+
+## 📁 Estrutura de Pastas
+
+```
+ignite-dt-money/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── contexts/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+└── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Como Rodar o Projeto
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/yruamkaffer/ignite-dt-money.git
+   ```
+
+2. Acesse a pasta do projeto:
+
+   ```bash
+   cd ignite-dt-money
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Abra o navegador e acesse `http://localhost:5173`
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+## 👤 Autor
+
+Desenvolvido por [Yruam Käffer de Faria](https://github.com/yruamkaffer) 💻
+
+---
+
+## 📝 Descrição
+
+Aplicação de controle financeiro desenvolvida com React, TypeScript e Vite, permitindo o cadastro e gerenciamento de transações financeiras, com visualização de saldo total e interface responsiva.
